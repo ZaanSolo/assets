@@ -86,15 +86,16 @@ a:hover {
   display: inline-block;
 }
 
-.printables-label {
+.asset-label {
   position: absolute;
   top: 10px; /* Adjust the top position as needed */
   right: 10px; /* Adjust the right position as needed */
 }
 
-.printables-label img {
+.asset-label img {
   width: 48px;
   height: 48px;
+  padding: 8px !important;
 }
 
 .assetGroup {

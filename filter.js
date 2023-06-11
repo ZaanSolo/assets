@@ -23,8 +23,8 @@ const updateFilter = (type = typeSelection, date = dateSelection) => {
   dateSelection = date
   assets.forEach(asset => {
     if (typeSelection === 'all' || asset.dataset.type === typeSelection) {
-      // We want to make sure that assets without a year are let through
-      if (asset.dataset.year === dateSelection || asset.dataset.type === 'general') {
+      // Check if the asset section has a year specified or if it is of type 'general'
+      if (asset.dataset.year === dateSelection || !asset.dataset.year) {
         asset.classList.add('show')
       } else {
         asset.classList.remove('show')

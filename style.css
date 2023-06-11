@@ -81,6 +81,22 @@ a:hover {
 
 
 
+.asset {
+  position: relative;
+  display: inline-block;
+}
+
+.printables-label {
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  right: 10px; /* Adjust the right position as needed */
+}
+
+.printables-label img {
+  width: 64px;
+  height: 64px;
+}
+
 .assetGroup {
   text-align: left;
   padding: 0 20px;

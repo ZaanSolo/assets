@@ -90,7 +90,7 @@ a:hover {
   justify-content: center;
 }
 
-.assetGroup a {
+.assetGroup div {
   display: inline-block;
   background: rgba(255, 255, 255, 0.13);
   padding: 10px 20px;

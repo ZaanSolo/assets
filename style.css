@@ -64,6 +64,30 @@ a:hover {
   color: #F1CC55;
 }
 
+/* Subtle styling for the credits section */
+.credits {
+  font-size: 14px; /* Reduce font size */
+  opacity: 0.7; /* Lower opacity to make it less prominent */
+  color: #333; /* Use a lighter text color */
+  margin-top: 10px; /* Add some space at the top */
+  padding: 10px; /* Add padding for separation */
+  background-color: rgba(255, 255, 255, 0.9); /* Lighter background color */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.credits p {
+  margin: 5px 0; /* Adjust margin for spacing between lines */
+}
+
+.credits div {
+  font-size: 12px; /* Reduce font size for inner div */
+  opacity: 0.7; /* Lower opacity for inner div */
+}
+
+.credits div br {
+  display: none; /* Hide line breaks in inner div */
+}
+
 .psdfileIcon {
   position: relative;
 }

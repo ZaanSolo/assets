@@ -57,11 +57,11 @@ h5 {
 }
 
 a {
-  color: #E4C049;
+  color: #24c2f1;
 }
 
 a:hover {
-  color: #F1CC55;
+  color: #4999e4;
 }
 
 /* Subtle styling for the credits section */
@@ -118,7 +118,7 @@ a:hover {
   padding: 5px !important;
   border-top-left-radius: 0px !important;
   border-top-right-radius: 0px !important;
-  background: #f0ad4e !important;
+  background: #4eddf0 !important;
 }
 
 .asset-label img {
@@ -204,13 +204,13 @@ a:hover {
 }
 
 .filter-section > .options > label > input:checked + span {
-  color: #E4C049;
-  border-color: #F1CC55;
+  color: #4999e4;
+  border-color: #4999e4;
 }
 
 .filter-section > .options > label > span:hover {
-  color: #F1CC55;
-  border-color: #F1CC55;
+  color: #4999e4;
+  border-color: #4999e4;
 }
 
 .filter-section > .options > label:last-child > span {

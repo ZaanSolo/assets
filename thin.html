@@ -145,7 +145,7 @@
                               </p>
                            </div>
                            <div class="asset">
-                              <a href="https://drive.google.com/open?id=10_dJW8oQ2I9KNxXphprPGJJm63pwVz70&usp=drive_fs" target="_blank">
+                              <a href="https://drive.google.com/drive/folders/1-LlW4JQBM-z_3kyUaRvWodiYNl9O4TyV" target="_blank">
                               <img  alt="" src="./assets/2024/Season13-TimelessTravels/2024-01-20-community-day-classic/luximity_badge_w_background.png">
                               <div class="asset-label">
                                  <img src="./img/gdrive-folder-icon.png" alt="Google Drive Folder Label">
@@ -1562,6 +1562,27 @@
             </div>
          </div>
       </div>
+      <script>
+         // Array of background image filenames
+         const backgrounds = [
+           'IMG_20180616_171654-PANO.jpg',
+           'Image uploaded from iOS (62).jpg',
+           'Image uploaded from iOS (62).jpg',
+           'IMG_20180616_171718.jpg',
+           'IMG_20181021_135900.jpg',
+           'IMG_20181110_135135.jpg',
+           'PXL_20220813_181323164.jpg',
+           'PXL_20230827_181825536.jpg',
+           'PXL_20230827_181918341.jpg',
+           'PXL_20230827_182007257.jpg'
+         ];
+     
+         // Get a random index from the backgrounds array
+         const randomIndex = Math.floor(Math.random() * backgrounds.length);
+     
+         // Set the background image using JavaScript
+         document.styleSheets[0].insertRule(`html { background-image: url(./img/backgrounds/${backgrounds[randomIndex]}) }`, 0);
+      </script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
          integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
          crossorigin="anonymous"></script>

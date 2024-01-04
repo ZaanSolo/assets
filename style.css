@@ -88,22 +88,6 @@ a:hover {
   display: none; /* Hide line breaks in inner div */
 }
 
-.psdfileIcon {
-  position: relative;
-}
-
-.psdfileIcon::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 20px; /* Adjust the width as per your needs */
-  height: 20px; /* Adjust the height as per your needs */
-  background: url(https://icon-library.com/images/psd-icon/psd-icon-15.jpg) no-repeat;
-  background-size: cover;
-}
-
-
 
 .asset {
   position: relative;

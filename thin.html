@@ -28,7 +28,7 @@
          <div class="row">
             <div class="col-md-12 text-center" style="box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.23);padding: 0;">
                <div class="panel"
-                  style="width: 100%;border-radius:0;margin:0;border: none;padding: 20px;background: #3d3d3d;color: #f3f2eb;font-size: 13px;line-height: 1.2em;letter-spacing: 0;text-shadow:none;">
+                  style="width: 100%;border-radius:0;margin:0;border: none;padding: 20px;background: #3d3d3deb;color: #f3f2eb;font-size: 13px;line-height: 1.2em;letter-spacing: 0;text-shadow:none;">
                   <h2
                      style="margin: 0;font-size:36px;letter-spacing:.1em;line-height:.9em;font-family:'texgyreadventorregular';">
                      Checkpoint Downloads <br/>
@@ -1388,13 +1388,13 @@
                            </div>
                            <div>
                               <a href="./assets/2023/2023-06-10-community-day/2023-06-10_HaxorusBadge.psd" target="_blank">
-                                    <img src="./img/photoshop-icon.png" class="artistLuximity psdfileIcon">
+                                    <img src="./img/psd.png" class="artistLuximity psdfileIcon">
                                     <label>Badge PSD</label>
                               </a>
                            </div>
                            <div>
                               <a href="./assets/2023/2023-06-10-community-day/2023-06-10_HaxorusBadgeBanner.psd" target="_blank">
-                                    <img src="./img/photoshop-icon.png" class="psdfileIcon">
+                                    <img src="./img/psd.png" class="psdfileIcon">
                                     <label>Badge Banner psd</label>
                               </a>
                            </div>
@@ -1576,12 +1576,12 @@
            'PXL_20230827_181918341.jpg',
            'PXL_20230827_182007257.jpg'
          ];
-     
+
          // Get a random index from the backgrounds array
          const randomIndex = Math.floor(Math.random() * backgrounds.length);
-     
+
          // Set the background image using JavaScript
-         document.styleSheets[0].insertRule(`html { background-image: url(./img/backgrounds/${backgrounds[randomIndex]}) }`, 0);
+         document.documentElement.style.backgroundImage = `url('./img/backgrounds/${backgrounds[randomIndex]}')`;
       </script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
          integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
